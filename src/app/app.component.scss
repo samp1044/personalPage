@@ -15,10 +15,16 @@
 
 .navigation {
   padding: 10px;
-  min-width: 10rem;
+  min-width: 5rem;
 
   border-right: 1px solid black;
   overflow: auto;
+}
+
+@media screen and (min-width:1000px) {
+  .navigation {
+    min-width: 10rem;
+  }
 }
 
 .content {
