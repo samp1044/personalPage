@@ -1,0 +1,30 @@
+.header {
+  padding: 10px;
+  font-size: 1.2rem;
+
+  border-bottom: 1px solid black;
+}
+
+.main {
+  flex-grow: 1;
+  height: 0px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation {
+  padding: 10px;
+  min-width: 10rem;
+
+  border-right: 1px solid black;
+  overflow: auto;
+}
+
+.content {
+  flex-grow: 1;
+  max-width: 100rem;
+
+  padding: 10px;
+  overflow: auto;
+}
