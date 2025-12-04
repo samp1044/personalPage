@@ -1,4 +1,0 @@
-- Subpages reachable on reload -> htaccess?
-- Downscale profile picture
-- TU Vienna -> TU Wien
-- Darkmode support
