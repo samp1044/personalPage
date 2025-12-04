@@ -1,0 +1,36 @@
+.header {
+  padding: 10px;
+  font-size: 1.2rem;
+
+  border-bottom: 1px solid black;
+}
+
+.main {
+  flex-grow: 1;
+  height: 0px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation {
+  padding: 10px;
+  min-width: 5rem;
+
+  border-right: 1px solid black;
+  overflow: auto;
+}
+
+@media screen and (min-width:1000px) {
+  .navigation {
+    min-width: 10rem;
+  }
+}
+
+.content {
+  flex-grow: 1;
+  max-width: 100rem;
+
+  padding: 10px;
+  overflow: auto;
+}

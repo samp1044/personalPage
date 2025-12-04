@@ -1,0 +1,23 @@
+:host ::ng-deep {
+  h3 {
+    margin-top: 0;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+  tbody td {
+    padding-bottom: 5px;
+  }
+
+  tr > td:first-child {
+    width: 10rem;
+  }
+
+  tr > td:nth-child(2) {
+    min-width: 16rem;
+  }
+}
+
+

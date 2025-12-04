@@ -1,0 +1,20 @@
+.navigation-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-list a {
+  display: block;
+  margin-bottom: 2px;
+  padding: 2px;
+
+  text-decoration: none;
+  color: black;
+}
+
+.navigation-list a:hover {
+  text-decoration: none;
+  background: black;
+  color: white;
+}
