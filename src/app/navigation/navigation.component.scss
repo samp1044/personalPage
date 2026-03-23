@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 10px;
 
   border-block: 1px solid black;
   background: white;
@@ -28,11 +27,35 @@
   justify-content: space-evenly;
 }
 
+.navigation-list > li {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
 .navigation-list a {
-  display: block;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  flex-grow: 1;
+  padding: 10px;
 
   text-decoration: none;
-  color: black;
+  color: #222;
+
+  @media screen and (width <= 480px) {
+    border-right: solid 1px #333;
+  }
+}
+
+.navigation-list li:last-child a {
+  border: none;
+}
+
+.navigation-list a.active {
+  font-weight: bold;
 }
 
 .navigation-list a:hover {
