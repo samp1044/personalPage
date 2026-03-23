@@ -3,6 +3,12 @@
   --primary-font: arial, sans-serif;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html {
   width: 100%;
   height: 100%;

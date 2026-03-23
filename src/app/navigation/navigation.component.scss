@@ -45,8 +45,12 @@
   text-decoration: none;
   color: #222;
 
-  @media screen and (width <= 480px) {
-    border-right: solid 1px #333;
+  min-height: 44px;
+  border-right: solid 1px #333;
+
+  @media screen and (width > 480px) {
+    min-height: auto;
+    border: none;
   }
 }
 
@@ -55,7 +59,14 @@
 }
 
 .navigation-list a.active {
-  font-weight: bold;
+  color: white;
+  background: black;
+
+  @media screen and (width > 480px) {
+    color: initial;
+    background: initial;
+    font-weight: bold;
+  }
 }
 
 .navigation-list a:hover {
